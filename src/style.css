@@ -1,0 +1,247 @@
+.background {
+  background: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+.pageContent {
+  background: white;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.header {
+  width: 200px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+  max-width: 70%;
+}
+.headerContent {
+  align: inline-block;
+}
+
+h1 {
+  font-family: cursive;
+  text-align: center;
+  color: #506d84;
+  font-size: 42px;
+}
+
+h2 {
+  font-family: cursive;
+  text-align: center;
+  text-transform: lowercase;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+span {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #889eaf;
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+}
+.fantasy {
+  background-color: #506d84;
+  padding: 10px;
+  color: white;
+  font-family: allura;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 5px;
+}
+.retellings {
+  background-color: #889eaf;
+  padding: 10px;
+  color: white;
+  font-family: allura;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.mystery {
+  background-color: whitesmoke;
+  padding: 10px;
+  color: #506d84;
+  font-family: allura;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.historical {
+  background-color: rgb(213, 229, 236);
+  padding: 10px;
+  color: #506d84;
+  font-family: allura;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.youngad {
+  background-color: #889eaf;
+  padding: 10px;
+  color: white;
+  font-family: allura;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.science {
+  background-color: #506d84;
+  padding: 10px;
+  color: white;
+  font-family: allura;
+  font-size: 30px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.overlay {
+  width: 250px;
+  height: 350px;
+  top: 0;
+}
+.fantasy:hover {
+  color: #e4e12d;
+}
+
+.fantasy:hover .overlay {
+  opacity: 1;
+  padding-block: 476px;
+  text-decoration: none;
+  transition: 3s ease-in-out;
+}
+.retellings:hover {
+  color: #bf140d;
+}
+.retellings:hover .overlay {
+  opacity: 1;
+  padding-block: 476px;
+  transition: 3s ease-in-out;
+}
+.mystery:hover {
+  color: #e4513d;
+}
+.mystery:hover .overlay {
+  opacity: 1;
+  padding-block: 476px;
+  transition: 3s ease-in-out;
+}
+.historical:hover {
+  color: #0f1c85;
+}
+.historical:hover .overlay {
+  opacity: 1;
+  padding-block: 473.5px;
+  transition: 3s ease-in-out;
+}
+.youngad:hover {
+  color: #fce39b;
+}
+.youngad:hover .overlay {
+  opacity: 1;
+  padding-block: 476px;
+  transition: 3s ease-in-out;
+}
+.science:hover {
+  color: #fee72b;
+}
+.science:hover .overlay {
+  opacity: 1;
+  padding-block: 476px;
+  transition: 3s ease-in-out;
+}
+
+.FadeEffect {
+  position: absolute;
+  opacity: 0;
+  animation-delay: 200ms;
+}
+.acotar {
+  width: 200px;
+}
+.wolf-img {
+  width: 200px;
+}
+.nd-staircase {
+  width: 200px;
+  height: 300px;
+}
+
+.outlander {
+  width: 200px;
+}
+
+.hp-stone {
+  width: 200px;
+}
+.hitchhiker {
+  width: 200px;
+  height: 300px;
+}
+
+button {
+  color: white;
+  background: #4d4d4d;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  padding: 20px 25px;
+  box-shadow: 4px 3px 10px gray;
+}
+
+button:hover {
+  background: #d5e5ec;
+  color: rgb(50, 50, 50);
+  transition: 200ms, ease-in-out;
+  border: solid #506d84;
+  cursor: pointer;
+}
+p {
+  font-family: cursive;
+  font-size: 18px;
+  color: #4d4d4d;
+  text-align: left;
+}
+.social {
+  display: inline-flex;
+}
+.goodreads {
+  width: 50px;
+  border-radius: 30%;
+}
+.thrift-books {
+  width: 50px;
+  border-radius: 30%;
+}
+.bookbub {
+  width: 50px;
+  border-radius: 30%;
+}
+
+.page-footer {
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+  font-family: allura;
+  line-height: 10px;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #596e79;
+}
+a:hover {
+  text-decoration-line: underline;
+}
